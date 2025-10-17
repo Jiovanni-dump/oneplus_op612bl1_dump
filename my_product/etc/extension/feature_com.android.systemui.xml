@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- indicate if the device is prevented screen nurn -->
+    <app_feature name="com.android.systemui.prevented_screen_burn"/>
+</extend_features>

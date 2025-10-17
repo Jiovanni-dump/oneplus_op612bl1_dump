@@ -1,0 +1,45 @@
+<oplus-config>
+    <!-- audio start -->
+    <!-- Tansen@MULTIMEDIA.AUDIOSERVER.FRAMEWORK, 2022/06/21, add for haptic -->
+    <oplus-feature name="oplus.software.audio.haptic_channel_support"/>
+    <oplus-feature name="oplus.software.haptic_vibrator_v1.support"/>
+    <!-- Zehua.Zhang@MULTIMEDIA.AUDIOSERVER.FRAMEWORK.2023/05/15. Add for media control -->
+    <oplus-feature name="oplus.software.audio.media_control"/>
+    <!-- Lvhongzhou@MULTIMEDIA.AUDIOSERVER.FRAMEWORK.2023/8/17. Add for speaker channel reserve -->
+    <oplus-feature name="oplus.software.audio.dualspk_support"/>
+    <!-- zhanglixia@MULTIMEDIA.AUDIOSERVER.FRAMEWORK.2023/05/19. Add for spk oplus spatializer -->
+    <oplus-feature name="oplus.software.spatializer_speaker"/>
+    <!-- zhanglixia, 2023/05/30, Add for bluetooth volume sync -->
+    <oplus-feature name="oplus.software.bluetooth_volume_sync"/>
+    <!-- WangDong4@MULTIMEDIA.AUDIOSERVER.BASE, 2024/02/26, add for multi-application volume adjustment -->
+    <oplus-feature name="oplus.software.multi_app.volume.adjust.support"/>
+    <!-- Zehua.Zhang@MULTIMEDIA.AUDIOSERVER.FRAMEWORK.2023/05/15. Add for volume default adjust -->
+    <oplus-feature name="oplus.software.audio.volume_default_adjust"/>
+    <!-- Liang.Xu@MULTIMEDIA.AUDIOSERVER.FRAMEWORK, 2023/12/07, Add for Oplus Spatializer Record. -->
+    <oplus-feature name="oplus.software.audio_spatializer_record" />
+    <!-- Mengdie.Zhou@MULTIMEDIA.AUDIOSERVER.EFFECT.2024/07/13. Add for audio effect combined -->
+    <oplus-feature name="oplus.software.audio.effect.combined"/>
+    <!-- audio end -->
+    <oplus-feature name="oplus.software.display.dynamic_fps_switch" />
+    <!-- performance feature -->
+    <oplus-feature name="oplus.software.display.refreshrate_default_smart"/>
+    <oplus-feature name="oplus.software.display.multi_device_decrease_refresh_rate"/>
+    <oplus-feature name="oplus.software.display.adfr"/>
+
+    <!-- liuhaituo@MULTIMEDIA.AUDIOSERVER.AUDIODRIVER, 2024/12/25, Add for vocal prominence 2.0-->
+    <oplus-feature name="oplus.hardware.audio.voice_isolation_support_v2" />
+
+    <!-- video start -->
+    <oplus-feature name="oplus.software.video.sr_support"/>
+    <oplus-feature name="oplus.software.video.osie_support"/>
+    <oplus-feature name="oplus.software.camera.heic_support" />
+    <!-- video end -->
+
+    <!-- Zhouqifan@MULTIMEDIA.DISPLAY.SF, 2024/12/20, Add for brightness feature -->
+    <oplus-feature name="oplus.software.display.enhance_brightness_with_uidimming" />
+
+    <!-- Zhouqifan@MULTIMEDIA.DISPLAY.SF, 2024/12/20, Add for resoultionsiwtch feature -->
+    <oplus-feature name="oplus.software.display.resolution_switch_support" />
+    <oplus-feature name="oplus.software.app_resolution_switch" />
+    <oplus-feature name="oplus.software.display.resolution_switch_disableauto_support" />
+</oplus-config>

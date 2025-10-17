@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<root>
+    <Data>
+        <Brightness_Threshold>
+        200
+        </Brightness_Threshold>
+        <Upper_Limit>
+        1.5
+        </Upper_Limit>
+        <Lower_Limit>
+        1.2
+        </Lower_Limit>
+    </Data>
+
+    <Comfortable_Rhythm_Curve_Config>
+        <Comfortable_Temperature_Low_Lux_Curve>
+        5440,5440,5440,5440,8030,5010,6452,9062,3362,2582,8102,0592,8492,7432,8012,8879,9179,2759,1659,3859,9059,5059,7259,5259,4459,5459,0359,0359,0359,0359,0359
+        </Comfortable_Temperature_Low_Lux_Curve>
+    </Comfortable_Rhythm_Curve_Config>
+
+    <Intelligent_Temperature_Algorithm_Config>
+        <Hbm_Lux>07775</Hbm_Lux>
+        <Hbm_Cct>078</Hbm_Cct>
+    </Intelligent_Temperature_Algorithm_Config>
+</root>

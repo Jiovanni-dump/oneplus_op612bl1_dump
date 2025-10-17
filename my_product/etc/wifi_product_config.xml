@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WifiProductConfig>
+    <version>2023042411</version>
+    <!--WIFI Coex BTC configuraion begin-->
+    <FDD_WIFI_GAME_RSSI_TH>-127:-128</FDD_WIFI_GAME_RSSI_TH>
+    <FDD_WIFI_NORMAL_RSSI_TH>-75:-85</FDD_WIFI_NORMAL_RSSI_TH>
+    <!--WIFI Coex BTC configuraion end-->
+    <!--WIFI regulation configuraion begin-->
+    <WIFI7_FORBIDDEN_COUNTRY_LIST>PH,ID</WIFI7_FORBIDDEN_COUNTRY_LIST>
+    <!--WIFI regulation configuraion end-->
+    <!--WIFI 1T2R channel disabled configuraion begin-->
+    <WIFI_NSS_DOT_FREQ_LIST>2412,2417,2457,2462,5180,5700,5745,5825</WIFI_NSS_DOT_FREQ_LIST>
+    <WIFI_NSS_DOT_FREQ_LIST_IN>2412,2417,2457,2462,5180,5700,5745,5825</WIFI_NSS_DOT_FREQ_LIST_IN>
+    <!--WIFI 1T2R channel disabled configuraion end-->
+</WifiProductConfig>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>20241220</version>
+    <toggle>1</toggle>
+    <features>
+        <feature name="BindCore" enable="0">
+            <!-- big core index, start from 0 -->
+            <bigcore_id>4</bigcore_id>
+            <bigcore_id>5</bigcore_id>
+            <bigcore_id>6</bigcore_id>
+            <bigcore_id>7</bigcore_id>
+        </feature>
+
+        <feature name="GpuSwFence" enable="1">
+        </feature>
+
+        <feature name="LocalHdr" enable="1">
+            <support10bit>enable</support10bit>
+        </feature>
+
+        <feature name="OplusDEE" enable="1">
+            <DC>enable</DC>
+            <globalLTM>enable</globalLTM>
+            <application name="com.oneplus.gallery">
+                <scene type="Application">
+                    <action>
+                        <mode>AD</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.heytap.yoli">
+                <scene type="Application">
+                    <action>
+                        <mode>AD</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.coloros.video">
+                <scene type="Application">
+                    <action>
+                        <mode>AD</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.coloros.gallery3d">
+                <scene type="Application">
+                    <action>
+                        <mode>AD</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.oplus.camera">
+                <scene type="Application">
+                    <action>
+                        <mode>AD</mode>
+                    </action>
+                </scene>
+            </application>
+        </feature>
+
+        <feature name="HdrVision" enable="1">
+            <timeout_s>60</timeout_s>
+            <scale>6</scale>
+            <timerEnable>1</timerEnable>
+            <application name="com.netflix.mediaclient"></application>
+            <application name="com.amazon.avod.thirdpartyclient"></application>
+            <application name="com.google.android.youtube"></application>
+        </feature>
+
+        <feature name="curtain" enable="1">
+            <application name="com.instagram.android">
+                <scene type="FuzzyLayer">
+                    <layer>TransparentModalActivity</layer>
+                    <action>
+                        <mode>Normal</mode>
+                    </action>
+                </scene>
+                <scene type="FuzzyLayer">
+                    <layer>MainActivity</layer>
+                    <action>
+                        <mode>Normal</mode>
+                    </action>
+                </scene>
+                <scene type="FuzzyLayer">
+                    <layer>ModalActivity</layer>
+                    <action>
+                        <mode>Normal</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.google.android.youtube">
+                <scene type="FuzzyLayer">
+                    <layer>WatchWhileActivity</layer>
+                    <action>
+                        <mode>SurfaceView</mode>
+                    </action>
+                </scene>
+                <scene type="FuzzyLayer">
+                    <layer>InternalMainActivity</layer>
+                    <action>
+                        <mode>SurfaceView</mode>
+                    </action>
+                </scene>
+                <scene type="FuzzyLayer">
+                    <layer>HomeActivity</layer>
+                    <action>
+                        <mode>SurfaceView</mode>
+                    </action>
+                </scene>
+            </application>
+        </feature>
+
+        <feature name="OplusDolbyVision" enable="1">
+            <timeout_s>60</timeout_s>
+            <scale>6</scale>
+            <timerEnable>1</timerEnable>
+            <needDimming>1</needDimming>
+            <fullScreenOnly>0</fullScreenOnly>
+            <application name="com.netflix.mediaclient"/>
+        </feature>
+    </features>
+</filter-conf>

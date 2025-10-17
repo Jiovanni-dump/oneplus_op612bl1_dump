@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<indexs>
+		<index list="Scenario_Index_1">4,5,6</index>
+		<index list="Scenario_Index_2">4,6</index>
+		<index list="Scenario_Index_3">5,6</index>
+	</indexs>
+	<modules>
+		<module hardware="Oplus_DC_SAR">12</module>
+		<module hardware="Oplus_DC_SAR_Region">CN,INDIA</module>
+		<module hardware="Oplus_DC_SAR_Low_Duty_Threshold">20</module>
+		<module hardware="Oplus_DC_SAR_High_Duty_Threshold">30</module>
+	</modules>
+	<SpecialScenarios>
+		<SpecialScenario condition="Version">V1</SpecialScenario>
+	</SpecialScenarios>
+</configs>

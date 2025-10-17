@@ -1,0 +1,4 @@
+<oplus-config>
+    <!-- kevin.li@ANDROID.RESCONTROL, 2022/09/09, add for activity preload -->
+    <oplus-feature name="oplus.software.activity_preload" />
+</oplus-config>

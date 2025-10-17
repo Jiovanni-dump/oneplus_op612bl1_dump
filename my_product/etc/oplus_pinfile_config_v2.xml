@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pin_file_config_v2>
+    <!-- default -->
+    <group>
+        <item>/vendor/lib64/egl/libGLESv2_adreno.so</item>
+		<item>/vendor/lib64/hw/vulkan.adreno.so</item>
+    </group>
+</pin_file_config_v2>

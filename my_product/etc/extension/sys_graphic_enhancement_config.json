@@ -1,0 +1,136 @@
+{
+    "version": 2025020801,
+    "feature": {
+        "colorx": {
+            "cx_package_name": "com.oneplus.colorx",
+            "coolex_white_list": [
+                "com.tencent.ig"
+            ],
+            "edr3_white_list": [
+                "com.tencent.ig",
+                "com.pubg.krmobile",
+                "com.vng.pubgmobile",
+                "com.rekoo.pubgm"
+            ],
+            "ofrc_1_0_white_list": [
+                {
+                    "pkg": "com.tencent.ig"
+                },
+                {
+                    "pkg": "com.pubg.krmobile"
+                },
+                {
+                    "pkg": "com.vng.pubgmobile"
+                },
+                {
+                    "pkg": "com.rekoo.pubgm"
+                },
+                {
+                    "pkg": "skydragon.honorofkings"
+                },
+                {
+                    "pkg": "com.levelinfinite.sgameGlobal"
+                },
+                {
+                    "pkg": "com.levelinfinite.sgameGlobal.midaspay"
+                },
+                {
+                    "pkg": "com.levelinfinite.sgameGlobal.kbinstaller"
+                },
+                {
+                    "pkg": "com.ngame.allstar.eu"
+                },
+                {
+                    "pkg": "com.garena.game.kgtw"
+                },
+                {
+                    "pkg": "com.pubg.imobile"
+                }
+            ],
+            "osr_1_0_white_list": [
+                {
+                    "pkg": "com.tencent.ig"
+                },
+                {
+                    "pkg": "com.pubg.krmobile"
+                },
+                {
+                    "pkg": "com.vng.pubgmobile"
+                },
+                {
+                    "pkg": "com.rekoo.pubgm"
+                },
+                {
+                    "pkg": "skydragon.honorofkings"
+                },
+                {
+                    "pkg": "com.levelinfinite.sgameGlobal"
+                },
+                {
+                    "pkg": "com.levelinfinite.sgameGlobal.midaspay"
+                },
+                {
+                    "pkg": "com.levelinfinite.sgameGlobal.kbinstaller"
+                },
+                {
+                    "pkg": "com.ngame.allstar.eu"
+                },
+                {
+                    "pkg": "com.garena.game.kgtw"
+                }
+            ],
+            "rus_file": {
+                "sys_coolex_gamedata_ig_hdr": [
+                    "com.tencent.ig",
+                    "com.pubg.krmobile",
+                    "com.vng.pubgmobile",
+                    "com.rekoo.pubgm"
+                ],
+                "sys_coolex_gamedata_common_memc": [
+                    "com.tencent.ig",
+                    "com.pubg.krmobile",
+                    "com.vng.pubgmobile",
+                    "com.rekoo.pubgm",
+                    "skydragon.honorofkings",
+                    "com.levelinfinite.sgameGlobal",
+                    "com.levelinfinite.sgameGlobal.midaspay",
+                    "com.levelinfinite.sgameGlobal.kbinstaller",
+                    "com.ngame.allstar.eu",
+                    "com.garena.game.kgtw",
+                    "com.pubg.imobile"
+                ],
+                "sys_coolex_gamedata_common_osr2d": [
+                    "com.tencent.ig",
+                    "com.pubg.krmobile",
+                    "com.vng.pubgmobile",
+                    "com.rekoo.pubgm",
+                    "skydragon.honorofkings",
+                    "com.levelinfinite.sgameGlobal",
+                    "com.levelinfinite.sgameGlobal.midaspay",
+                    "com.levelinfinite.sgameGlobal.kbinstaller",
+                    "com.ngame.allstar.eu",
+                    "com.garena.game.kgtw"
+                ],
+                "sys_coolex_gamedata_ig_memc": [
+                     "com.tencent.ig",
+                     "com.pubg.krmobile",
+                     "com.vng.pubgmobile",
+                     "com.rekoo.pubgm"
+                ],
+                "sys_coolex_gamedata_wzryi_memc": [
+                    "skydragon.honorofkings",
+                    "com.levelinfinite.sgameGlobal",
+                    "com.levelinfinite.sgameGlobal.midaspay",
+                    "com.levelinfinite.sgameGlobal.kbinstaller"
+                ],
+                "sys_coolex_gamedata_allstar_memc": [
+                    "com.ngame.allstar.eu",
+                    "com.garena.game.kgtw"
+                ],
+                "sys_coolex_gamedata_bgmi_memc": [
+                    "com.pubg.imobile"
+                ]
+            }
+        }
+    }
+}

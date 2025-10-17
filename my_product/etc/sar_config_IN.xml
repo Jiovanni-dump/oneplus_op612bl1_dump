@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Configs>
+  <version>1</version>
+  <Policys>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;TESTCARD&amp;&amp;OTA">4194319</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;TESTCARD&amp;&amp;OTA">4194318</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;TESTCARD&amp;&amp;OTA">4194317</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;TESTCARD&amp;&amp;OTA">4194316</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;TESTCARD&amp;&amp;OTA">4194315</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;TESTCARD&amp;&amp;OTA">4194314</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;TESTCARD&amp;&amp;OTA">4194313</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;TESTCARD&amp;&amp;OTA">4194312</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;TESTCARD&amp;&amp;OTA">4194311</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;TESTCARD&amp;&amp;OTA">4194310</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;TESTCARD&amp;&amp;OTA">4194309</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;TESTCARD&amp;&amp;OTA">4194308</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;TESTCARD&amp;&amp;OTA">4194307</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;TESTCARD&amp;&amp;OTA">4194306</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;TESTCARD&amp;&amp;OTA">4194305</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;TESTCARD&amp;&amp;OTA">4194304</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!TESTCARD&amp;&amp;OTA">15</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!TESTCARD&amp;&amp;OTA">14</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!TESTCARD&amp;&amp;OTA">13</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!TESTCARD&amp;&amp;OTA">12</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!TESTCARD&amp;&amp;OTA">11</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!TESTCARD&amp;&amp;OTA">10</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!TESTCARD&amp;&amp;OTA">9</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!TESTCARD&amp;&amp;OTA">8</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!TESTCARD&amp;&amp;OTA">7</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!TESTCARD&amp;&amp;OTA">6</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!TESTCARD&amp;&amp;OTA">5</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!TESTCARD&amp;&amp;OTA">4</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!TESTCARD&amp;&amp;OTA">3</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!TESTCARD&amp;&amp;OTA">2</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!TESTCARD&amp;&amp;OTA">1</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!TESTCARD&amp;&amp;OTA">0</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;TESTCARD&amp;&amp;!OTA">6291471</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;TESTCARD&amp;&amp;!OTA">6291470</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;TESTCARD&amp;&amp;!OTA">6291469</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;TESTCARD&amp;&amp;!OTA">6291468</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;TESTCARD&amp;&amp;!OTA">6291467</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;TESTCARD&amp;&amp;!OTA">6291466</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;TESTCARD&amp;&amp;!OTA">6291465</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;TESTCARD&amp;&amp;!OTA">6291464</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;TESTCARD&amp;&amp;!OTA">6291463</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;TESTCARD&amp;&amp;!OTA">6291462</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;TESTCARD&amp;&amp;!OTA">6291461</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;TESTCARD&amp;&amp;!OTA">6291460</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;TESTCARD&amp;&amp;!OTA">6291459</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;TESTCARD&amp;&amp;!OTA">6291458</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;TESTCARD&amp;&amp;!OTA">6291457</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;TESTCARD&amp;&amp;!OTA">6291456</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097167</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097166</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097165</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;BT&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097164</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097163</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097162</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097161</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;BT&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097160</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097159</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097158</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097157</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;WIFI5G&amp;&amp;!BT&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097156</Policy>
+    <Policy condition="HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097155</Policy>
+    <Policy condition="!HEAD&amp;&amp;WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097154</Policy>
+    <Policy condition="HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097153</Policy>
+    <Policy condition="!HEAD&amp;&amp;!WIFI2G&amp;&amp;!WIFI5G&amp;&amp;!BT&amp;&amp;!TESTCARD&amp;&amp;!OTA">2097152</Policy>
+  </Policys>
+  <Events>
+    <Event class="HeadNearEvent" name="HEAD">1</Event>
+    <Event class="WIFI2p4GEvent" name="WIFI2G">3</Event>
+    <Event class="WIFI5GEvent" name="WIFI5G">2</Event>
+    <Event class="BluetoothEvent" name="BT">6</Event>
+    <Event class="TestCardEvent" name="TESTCARD">0</Event>
+    <Event class="SwtpEvent" name="OTA">4</Event>
+  </Events>
+  <ScenarioMap>
+    <Scenario event_mask="0" sns_channel="-1">3</Scenario>
+    <Scenario event_mask="2" sns_channel="-1">5</Scenario>
+    <Scenario event_mask="8" sns_channel="-1">8</Scenario>
+    <Scenario event_mask="4" sns_channel="-1">8</Scenario>
+    <Scenario event_mask="64" sns_channel="-1">8</Scenario>
+    <Scenario event_mask="72" sns_channel="-1">8</Scenario>
+    <Scenario event_mask="68" sns_channel="-1">8</Scenario>
+    <Scenario event_mask="12" sns_channel="-1">8</Scenario>
+    <Scenario event_mask="10" sns_channel="-1">10</Scenario>
+    <Scenario event_mask="6" sns_channel="-1">10</Scenario>
+    <Scenario event_mask="66" sns_channel="-1">10</Scenario>
+    <Scenario event_mask="74" sns_channel="-1">10</Scenario>
+    <Scenario event_mask="70" sns_channel="-1">10</Scenario>
+    <Scenario event_mask="14" sns_channel="-1">10</Scenario>
+    <Scenario event_mask="76" sns_channel="-1">13</Scenario>
+    <Scenario event_mask="78" sns_channel="-1">15</Scenario>
+    <Scenario event_mask="1" sns_channel="-1">39</Scenario>
+  </ScenarioMap>
+</Configs>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+   <app_feature name="athena.ams.max.cached.processes" args="String:6|48-8|96-12|128"/>
+</extend_features>

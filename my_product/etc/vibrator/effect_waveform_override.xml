@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vibration_effect_map>
+<effect effect_id="157" waveform_id="110" duration="20" type="RTP" usage="TOUCH" desc="effect_other_keyboard_weak"/>
+<effect effect_id="158" waveform_id="111" duration="20" type="RTP" usage="TOUCH" desc="effect_other_keyboard_medium"/>
+<effect effect_id="159" waveform_id="112" duration="20" type="RTP" usage="TOUCH" desc="effect_other_keyboard_strong"/>
+</vibration_effect_map>

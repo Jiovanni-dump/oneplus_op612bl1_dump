@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+/** Copyright (C) 2024-2024, Oplus Holdings Corp Ltd. All rights reserved.
+ ** FileName: multimedia_display_apdemura_config.xml
+ ** Description: AP Demura Config
+ ** Version: 1.0
+ ** Date : 2024.05.01
+ ** Author: ChengLei@MULTIMEDIA.DISPLAY.ARCHITECTURE
+ **/
+-->
+
+<root>
+    <!-- must update version when you commit this file -->
+    <version>20241212</version>
+
+    <panel_id>
+        <id1 id="90">
+            <id2 id="00">evb</id2>
+            <id2 id="01">t0</id2>
+            <id2 id="02">evt</id2>
+            <!-- default must be last one -->
+            <id2 id="*">default</id2>
+        </id1>
+        <!-- other must be last one, it is for the wrong panel -->
+        <id1 id="*">
+            <id2 id="*">other</id2>
+        </id1>
+    </panel_id>
+
+    <panel_stage stages="other,ebv,t0,evt,dvt,pvt,default">
+
+        <!-- pwm: 3+18, bind_point max count:10, must sorted, the last one must be 4096 -->
+        <pwm_bind_points>
+            <!-- 10nit -->
+            <bind_point id="0" bin_id="0">375</bind_point>
+            <!-- 100nit -->
+            <bind_point id="1" bin_id="2">1769</bind_point>
+            <!-- sentinel value -->
+            <bind_point id="2" bin_id="3">4096</bind_point>
+        </pwm_bind_points>
+
+        <!-- dc1: 1+18, bind_point max count:10, must sorted, the last one must be 4096 -->
+        <dc1_bind_points>
+            <!-- 10nit -->
+            <bind_point id="0" bin_id="0">375</bind_point>
+            <!-- 100nit -->
+            <bind_point id="1" bin_id="2">1769</bind_point>
+            <!-- sentinel value -->
+            <bind_point id="2" bin_id="3">4096</bind_point>
+        </dc1_bind_points>
+
+        <!-- dc2: 1+1, bind_point max count:10, must sorted, the last one must be 4096 -->
+        <dc2_bind_points>
+            <!-- 10nit -->
+            <bind_point id="0" bin_id="1">375</bind_point>
+            <!-- 100nit -->
+            <bind_point id="1" bin_id="2">1769</bind_point>
+            <!-- sentinel value -->
+            <bind_point id="2" bin_id="3">4096</bind_point>
+        </dc2_bind_points>
+
+    </panel_stage>
+
+</root>
