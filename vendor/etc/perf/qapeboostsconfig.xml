@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/* Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+ * All rights reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ */
+-->
+
+<QapeBoostConfigs>
+    <QapePerfBoost>
+        <!-- Game Play Generic Profiles for tuna-->
+        <!-- MPCTLV3_SCHED_PIPELINE_SPEC_TASK_UTIL_THRES -->
+        <!-- MPCTLV3_SCHED_SINGLE_THREAD_PIPELINE -->
+        <!-- MPCTLV3_WALT_HISPEED_COND_FREQ_BIG -->
+        <!-- MPCTLV3_WALT_HISPEED_COND_FREQ_PRIME -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS PRIME -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS BIG -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS TITANIUM -->
+        <!-- MPCTLV3_SCHED_PIPELINE_REARRAGE_DELAY_MS -->
+        <Config
+            Id="0x1" Enable="true" Timeout="0" Target="tuna" Class="0"
+            Resources="0X43C40000, 0, 0x43C60000, 0x1, 0x40818000, 900, 0x40818200, 900,
+                       0x63C5C200, 8, 0, 1363200, 6, 1363200, 7, 1363200, 8, 1363200,
+                       0x63C5C000, 6, 0, 2515200, 2, 2515200, 3, 2515200, 0x63C5C300, 6,
+                       0, 2515200, 2, 2515200, 3, 2515200, 0x63C64000, 2, 60000, 60000" />
+
+        <!-- MPCTLV3_SCHED_PIPELINE_SPEC_TASK_UTIL_THRES -->
+        <!-- MPCTLV3_SCHED_SINGLE_THREAD_PIPELINE -->
+        <!-- MPCTLV3_WALT_HISPEED_COND_FREQ_BIG -->
+        <!-- MPCTLV3_WALT_HISPEED_COND_FREQ_PRIME -->
+        <!-- MPCTLV3_GPU_DCVS_TUNING_MINGAP -->
+        <!-- MPCTLV3_GPU_DCVS_TUNING_PENALTY -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS PRIME -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS BIG -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS TITANIUM -->
+        <!-- MPCTLV3_SCHED_PIPELINE_REARRAGE_DELAY_MS -->
+        <Config
+            Id="0x1" Enable="true" Timeout="0" Target="tuna" Class="1"
+            Resources="0X43C40000, 0, 0x43C60000, 0x1, 0x40818000, 900, 0x40818200, 900,
+                       0X42838000, 3, 0X42840000, 2, 0x63C5C200, 12, 0, 1632000, 2,
+                       2169600, 3, 1632000, 6, 1632000, 7, 1632000, 8, 1632000, 0x63C5C000,
+                       6, 0, 2515200, 2, 2515200, 3, 2515200, 0x63C5C300, 6, 0, 2515200, 2,
+                       2515200, 3, 2515200, 0x63C64000, 2, 60000, 60000" />
+
+        <!-- MPCTLV3_SCHED_PIPELINE_SPEC_TASK_UTIL_THRES -->
+        <!-- MPCTLV3_SCHED_SINGLE_THREAD_PIPELINE -->
+        <!-- MPCTLV3_WALT_HISPEED_COND_FREQ_BIG -->
+        <!-- MPCTLV3_WALT_HISPEED_COND_FREQ_PRIME -->
+        <!-- MPCTLV3_GPU_DCVS_TUNING_MINGAP -->
+        <!-- MPCTLV3_GPU_DCVS_TUNING_PENALTY -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS PRIME -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS BIG -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS TITANIUM -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS SILVER -->
+        <!-- MPCTLV3_SCHED_PIPELINE_REARRAGE_DELAY_MS -->
+        <Config
+            Id="0x1" Enable="true" Timeout="0" Target="tuna" Class="2"
+            Resources="0x43C40000, 0, 0x43C60000, 0x1, 0x40818000, 900, 0x40818200, 900,
+                       0X42838000, 3, 0X42840000, 2, 0x63C5C200, 12, 0, 1632000, 2,
+                       2169600, 3, 1632000, 6, 1632000, 7, 1632000, 8, 1632000, 0x63C5C000,
+                       8, 0, 2707200, 6, 2918400, 7, 2918400, 8, 2918400, 0x63C5C300, 8,
+                       0, 2515200, 6, 2707200, 7, 2707200, 8, 2707200, 0x63C5C100, 8,
+                       0, 1785600, 6, 1804800, 7, 1804800, 8, 1804800, 0x63C64000, 2, 60000, 60000" />
+
+        <!-- Game Play Generic Profiles for kera-->
+        <!-- MPCTLV3_SCHED_PIPELINE_SPEC_TASK_UTIL_THRES -->
+        <!-- MPCTLV3_SCHED_SINGLE_THREAD_PIPELINE -->
+        <!-- MPCTLV3_WALT_HISPEED_COND_FREQ_BIG -->
+        <!-- MPCTLV3_WALT_HISPEED_COND_FREQ_PRIME -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS PRIME -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS BIG -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS TITANIUM -->
+        <!-- MPCTLV3_SCHED_PIPELINE_REARRAGE_DELAY_MS -->
+        <Config
+            Id="0x1" Enable="true" Timeout="0" Target="kera" Class="0"
+            Resources="0X43C40000, 0, 0x43C60000, 0x1, 0x40818000, 900, 0x40818200, 900,
+                       0x63C5C200, 8, 0, 1363200, 6, 1363200, 7, 1363200, 8, 1363200,
+                       0x63C5C000, 6, 0, 2515200, 2, 2515200, 3, 2515200, 0x63C5C300, 6,
+                       0, 2515200, 2, 2515200, 3, 2515200, 0x63C64000, 2, 60000, 60000" />
+
+        <!-- MPCTLV3_SCHED_PIPELINE_SPEC_TASK_UTIL_THRES -->
+        <!-- MPCTLV3_SCHED_SINGLE_THREAD_PIPELINE -->
+        <!-- MPCTLV3_WALT_HISPEED_COND_FREQ_BIG -->
+        <!-- MPCTLV3_WALT_HISPEED_COND_FREQ_PRIME -->
+        <!-- MPCTLV3_GPU_DCVS_TUNING_MINGAP -->
+        <!-- MPCTLV3_GPU_DCVS_TUNING_PENALTY -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS PRIME -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS BIG -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS TITANIUM -->
+        <!-- MPCTLV3_SCHED_PIPELINE_REARRAGE_DELAY_MS -->
+        <Config
+            Id="0x1" Enable="true" Timeout="0" Target="kera" Class="1"
+            Resources="0X43C40000, 0, 0x43C60000, 0x1, 0x40818000, 900, 0x40818200, 900,
+                       0X42838000, 3, 0X42840000, 2, 0x63C5C200, 12, 0, 1632000, 2,
+                       2169600, 3, 1632000, 6, 1632000, 7, 1632000, 8, 1632000, 0x63C5C000,
+                       6, 0, 2515200, 2, 2515200, 3, 2515200, 0x63C5C300, 6, 0, 2515200, 2,
+                       2515200, 3, 2515200, 0x63C64000, 2, 60000, 60000" />
+
+        <!-- MPCTLV3_SCHED_PIPELINE_SPEC_TASK_UTIL_THRES -->
+        <!-- MPCTLV3_SCHED_SINGLE_THREAD_PIPELINE -->
+        <!-- MPCTLV3_WALT_HISPEED_COND_FREQ_BIG -->
+        <!-- MPCTLV3_WALT_HISPEED_COND_FREQ_PRIME -->
+        <!-- MPCTLV3_GPU_DCVS_TUNING_MINGAP -->
+        <!-- MPCTLV3_GPU_DCVS_TUNING_PENALTY -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS PRIME -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS BIG -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS TITANIUM -->
+        <!-- MPCTLV3_SCHED_LEGACY_FREQ_LEVELS SILVER -->
+        <!-- MPCTLV3_SCHED_PIPELINE_REARRAGE_DELAY_MS -->
+        <Config
+            Id="0x1" Enable="true" Timeout="0" Target="kera" Class="2"
+            Resources="0x43C40000, 0, 0x43C60000, 0x1, 0x40818000, 900, 0x40818200, 900,
+                       0X42838000, 3, 0X42840000, 2, 0x63C5C200, 12, 0, 1632000, 2,
+                       2169600, 3, 1632000, 6, 1632000, 7, 1632000, 8, 1632000, 0x63C5C000,
+                       8, 0, 2707200, 6, 2918400, 7, 2918400, 8, 2918400, 0x63C5C300, 8,
+                       0, 2515200, 6, 2707200, 7, 2707200, 8, 2707200, 0x63C5C100, 8,
+                       0, 1785600, 6, 1804800, 7, 1804800, 8, 1804800, 0x63C64000, 2, 60000, 60000" />
+
+        <!-- Minimalistic Jank Rescuer Profiles for tuna-->
+        <!-- CPU_BIG_MIN_FREQ, CPU_PRIME_MIN_FREQ, PRIME_SMART_FREQ_UNCAP-->
+        <Config
+            Id="0x2" Enable="true" Timeout="200" Target="tuna" Class="2" RescueLevel="3"
+            RescueResources="0x40800000, 1632, 0x40800200, 1600, 0x63C5C200, 12, 0, 3030000, 2,
+                             3030000, 3, 3030000, 6, 3030000, 7, 3030000, 8, 3030000, 0x63C5C000,
+                             8, 0, 3030000, 6, 3030000, 7, 3030000, 8, 3030000, 0x63C5C300, 8,
+                             0, 2803000, 6, 2803000, 7, 2803000, 8, 2803000, 0x63C5C100, 8,
+                             0, 2100000, 6, 2100000, 7, 2100000, 8, 2100000" />
+        <!-- GPU_MIN_POWER_LEVEL, CPU_BIG_MIN_FREQ, CPU_PRIME_MIN_FREQ, PRIME_SMART_FREQ_UNCAP-->
+        <Config
+            Id="0x2" Enable="true" Timeout="200" Target="tuna" Class="2" RescueLevel="5"
+            RescueResources="0x42804000, 2, 0x40800000, 1632, 0x40800200, 1600, 0x63C5C200, 12,
+                             0, 3030000, 2, 3030000, 3, 3030000, 6, 3030000, 7, 3030000, 8, 3030000,
+                             0x63C5C000, 8, 0, 3030000, 6, 3030000, 7, 3030000, 8, 3030000, 0x63C5C300,
+                             8, 0, 2803000, 6, 2803000, 7, 2803000, 8, 2803000, 0x63C5C100, 8,
+                             0, 2100000, 6, 2100000, 7, 2100000, 8, 2100000" />
+
+        <!-- Minimalistic Jank Rescuer Profiles for kera-->
+        <!-- CPU_BIG_MIN_FREQ, CPU_PRIME_MIN_FREQ, PRIME_SMART_FREQ_UNCAP-->
+        <Config
+            Id="0x2" Enable="true" Timeout="200" Target="kera" Class="2" RescueLevel="3"
+            RescueResources="0x40800000, 1632, 0x40800200, 1600, 0x63C5C200, 12, 0, 3030000, 2,
+                             3030000, 3, 3030000, 6, 3030000, 7, 3030000, 8, 3030000, 0x63C5C000,
+                             8, 0, 3030000, 6, 3030000, 7, 3030000, 8, 3030000, 0x63C5C300, 8,
+                             0, 2803000, 6, 2803000, 7, 2803000, 8, 2803000, 0x63C5C100, 8,
+                             0, 2100000, 6, 2100000, 7, 2100000, 8, 2100000" />
+        <!-- GPU_MIN_POWER_LEVEL, CPU_BIG_MIN_FREQ, CPU_PRIME_MIN_FREQ, PRIME_SMART_FREQ_UNCAP-->
+        <Config
+            Id="0x2" Enable="true" Timeout="200" Target="kera" Class="2" RescueLevel="5"
+            RescueResources="0x42804000, 2, 0x40800000, 1632, 0x40800200, 1600, 0x63C5C200, 12,
+                             0, 3030000, 2, 3030000, 3, 3030000, 6, 3030000, 7, 3030000, 8, 3030000,
+                             0x63C5C000, 8, 0, 3030000, 6, 3030000, 7, 3030000, 8, 3030000, 0x63C5C300,
+                             8, 0, 2803000, 6, 2803000, 7, 2803000, 8, 2803000, 0x63C5C100, 8,
+                             0, 2100000, 6, 2100000, 7, 2100000, 8, 2100000" />
+    </QapePerfBoost>
+</QapeBoostConfigs>
