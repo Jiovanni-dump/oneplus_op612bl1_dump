@@ -1,0 +1,14 @@
+# qssi_64-user 15 AP3A.240617.008 1756203574675 release-keys
+- manufacturer: oneplus
+- platform: sun
+- codename: OP612BL1
+- flavor: qssi_64-user
+- release: 15
+- id: AP3A.240617.008
+- incremental: V.R4T3.3077b5e-110419c-112b2cf
+- tags: release-keys
+- fingerprint: OnePlus/CPH2723IN/OP612BL1:15/AP3A.240617.008/V.R4T3.3077b5e-110419c-112b2cf:user/release-keys
+- is_ab: true
+- brand: OnePlus
+- branch: qssi_64-user-15-AP3A.240617.008-1756203574675-release-keys
+- repo: oneplus_op612bl1_dump
