@@ -1,0 +1,8 @@
+service vendor-osml-aidl  /odm/bin/hw/vendor-oplus-hardware-osml-service
+    class hal
+    capabilities SYS_NICE
+    user root
+    group root system
+    interface aidl vendor.oplus.hardware.osml.IOplusOsml/default
+    oneshot
+    disabled

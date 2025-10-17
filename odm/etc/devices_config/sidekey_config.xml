@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<filter-conf>
+    <version>20250224</version>
+    <filter-name>spruce_parameters_list</filter-name>
+    <!-- position of action button -->
+    <action_position_left_pixel>432,569</action_position_left_pixel>
+</filter-conf>

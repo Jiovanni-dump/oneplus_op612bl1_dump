@@ -1,0 +1,25 @@
+service sensor_logger_qxdm_start /system/vendor/bin/diag_mdlog -c -u -s 50 -t 2 -x 0x4000 -g 0x4000 -o /data/vendor/oplus/log/device_log/diag_logs -f /vendor/odm/etc/default.cfg
+    class core
+    user system
+    group system sdcard_rw sdcard_r media_rw
+    disabled
+    oneshot
+
+service sensor_logger_qxdm_drain  /odm/bin/oplus_sensor_logger_daemon -o
+    class core
+    user system
+    group system misc sdcard_rw sdcard_r input
+    disabled
+    oneshot
+
+service sensor_logger_qxdm_stop /system/vendor/bin/diag_mdlog -c -u -s 50 -t 2 -x 0x4000 -g 0x4000 -k
+    class core
+    user system
+    group system sdcard_rw sdcard_r media_rw
+    disabled
+    oneshot
+
+on boot
+    chown system system /odm/bin/oplus_sensor_logger_daemon
+    chmod 0777 /odm/bin/oplus_sensor_logger_daemon
+

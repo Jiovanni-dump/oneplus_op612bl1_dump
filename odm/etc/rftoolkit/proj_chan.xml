@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RFTOOLKIT>
+    <GeneralMode mode="NPT">
+    <RAT name="NR5G">
+        <Band number="25">
+            <Channel type="Low">371000</Channel>
+            <Channel type="Mid">376500</Channel>
+            <Channel type="High">382000</Channel>
+        </Band>
+        <Band number="71">
+            <Channel type="Low">133600</Channel>
+            <Channel type="Mid">136100</Channel>
+            <Channel type="High">138600</Channel>
+        </Band>
+    </RAT>
+    </GeneralMode>
+</RFTOOLKIT>

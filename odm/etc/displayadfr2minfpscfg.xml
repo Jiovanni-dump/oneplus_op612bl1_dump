@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone='yes' ?>
+<root>
+    <oplsadfrCfg>
+        <mode name="adfr2minfps_config">
+            <!--功能使能-->
+            <enable> 1 </enable>
+            <!--功能的debug log开关-->
+            <debug_enable> 0 </debug_enable>
+            <!--每隔sampleInterval+1帧检测一次sensor）-->
+            <sampleInterval> 0 </sampleInterval>
+            <!--sensorlux的阈值，决定是否是暗环境-->
+            <!--如果当前是亮环境，lux<sensor_inlux会被判为暗环境-->
+            <sensor_inlux> 15 </sensor_inlux>
+            <!--如果当前是暗环境，lux>sensor_outlux会被判为亮环境-->
+            <sensor_outlux> 40 </sensor_outlux>
+            <!--手动亮度下sensorlux的开关间隔，单位秒-->
+            <sensor_gaptime> 10 </sensor_gaptime>
+            <!--最前面两个值为不同sensorlux的minfps -->
+            <minfps120_level> 10 1 </minfps120_level>
+            <minfps90_level> 10 1 </minfps90_level>
+            <minfps60_level> 10 1 </minfps60_level>
+        </mode>
+    </oplsadfrCfg>
+</root>

@@ -1,0 +1,62 @@
+#!/vendor/bin/sh
+
+#svc wifi disable
+file_path="/sys/module/qca_cld3_peach/parameters/con_mode"
+file_path_v2="/sys/module/qca_cld3_peach_v2/parameters/con_mode"
+sleep 5
+if [ -e "$file_path" ]; then
+	echo "peach exit"
+	rmmod qca_cld3_peach
+	sleep 1
+	insmod /vendor/lib/modules/qca_cld3_peach.ko con_mode_ftm=5
+	sleep 3
+fi
+if [ -e "$file_path_v2" ]; then
+	echo "peach_v2 exit"
+	rmmod qca_cld3_peach_v2
+	sleep 1
+	insmod /vendor/lib/modules/qca_cld3_peach_v2.ko con_mode_ftm=5
+	sleep 3
+fi
+ifconfig wlan0 up
+ftmdaemon -n -dd
+sleep 9
+if [ -e "$file_path" ]; then
+	cat /sys/module/qca_cld3_peach/parameters/con_mode
+	sleep 1
+fi
+if [ -e "$file_path_v2" ]; then
+	cat /sys/module/qca_cld3_peach_v2/parameters/con_mode
+fi
+#modify for con_mode is 0
+cnt=0
+while true
+do
+    mode=$(cat /sys/module/qca_cld3_peach/parameters/con_mode)
+    modev2=$(cat /sys/module/qca_cld3_peach_v2/parameters/con_mode)
+    echo $mode
+    if test $mode -eq 0 || $modev2 -eq 0
+    then
+       #echo "is 0"
+       echo 5 > /sys/module/qca_cld3_peach/parameters/con_mode
+       sleep 1
+       echo 5 > /sys/module/qca_cld3_peach_v2/parameters/con_mode
+       #setprop persist.wlan.ftm1 1
+    else
+       #echo "is 5"
+       #setprop persist.wlan.ftm2 1
+       break
+    fi
+
+    let cnt+=1
+    #echo $cnt
+    #setprop persist.wlan.ftm3 1
+    if test $cnt -eq 10
+    then
+        break
+    fi
+    sleep 1
+done
+
+#sleep 1
+ftmdaemon -n -dd
